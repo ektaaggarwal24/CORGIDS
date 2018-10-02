@@ -1,0 +1,12 @@
+8 states new logic:
+
+[(-6253.5444436409543, 285.3358742766078, -6538.880317917562)]
+[GaussianHMM(algorithm='viterbi', covariance_type='tied', covars_prior=0.01,
+      covars_weight=1, init_params='stmc', means_prior=0, means_weight=0,
+      min_covar=0.001, n_components=2, n_iter=1000, params='stmc',
+      random_state=None, startprob_prior=1.0, tol=0.01, transmat_prior=1.0,
+      verbose=False)]
+
+8 states old logic:
+
+
