@@ -1,0 +1,42 @@
+{
+  "UAV": {
+    "logical_properties": [
+      "altitude",
+      "battery",
+      "speed",
+      "distance",
+      "flightTime"
+    ],
+    "training_IDS_path": "/CPSTraces/UAV/*",
+    "window_size": 240,
+    "training_range_values": [
+      1,
+      1.5,
+      2,
+      2.5,
+      3
+    ],
+    "training_threshold": 1,
+    "consecutive_decisions": 2
+  },
+  "SAP": {
+    "logical_properties": [
+      "glucose",
+      "glucoseShortDelta",
+      "glucoseLongDelta",
+      "insulinReq",
+      "basal"
+    ],
+    "training_IDS_path": "/CPSTraces/SAP/*",
+    "window_size": 240,
+    "training_range_values": [
+      1,
+      1.5,
+      2,
+      2.5,
+      3
+    ],
+    "training_threshold": 0.5,
+    "consecutive_decisions": 2
+  }
+}
