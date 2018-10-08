@@ -36,7 +36,7 @@
       2.5,
       3
     ],
-    "training_threshold": 0.5,
+    "training_threshold": 5,
     "consecutive_decisions": 2
   }
 }
