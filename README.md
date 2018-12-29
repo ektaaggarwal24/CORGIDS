@@ -13,10 +13,17 @@ pip install hmmlearn
 ```bash
 git clone https://github.com/ektaaggarwal24/CORGIDS.git
 ```
-3. Testing CORGIDS:
+
+PLATFORM below refers to value which can be either "UAV" or "SAP". Based on this argument, the IDS will be generated either for a UAV or a SAP
+3. Generating Intrusion detection model:
    - Run 
    ```bash
    python <root-dir>/IDSGenerator/IDSGenerator.py <PLATFORM>
    ```
-   PLATFORM here refers to value which can be either "UAV" or "SAP". Based on this argument, the IDS will be generated either for a UAV or a SAP.
+   
+4. Detecting Intrusion:
+   - Run
+   ```bash
+   python <root-dir>/IntrusionDetector/IntrusionDetector.py <PLATFORM>
+   ```
  
