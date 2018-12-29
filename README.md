@@ -14,7 +14,7 @@ pip install hmmlearn
 git clone https://github.com/ektaaggarwal24/CORGIDS.git
 ```
 
-PLATFORM below refers to value which can be either "UAV" or "SAP". Based on this argument, the IDS will be generated either for a UAV or a SAP
+> PLATFORM below refers to value which can be either "UAV" or "SAP". Based on this argument, the IDS will be generated either for a UAV or a SAP
 3. Generating Intrusion detection model:
    - Run 
    ```bash
