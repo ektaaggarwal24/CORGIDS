@@ -14,6 +14,6 @@ pip install hmmlearn
 git clone https://github.com/ektaaggarwal24/CORGIDS.git
 ```
 3. Testing CORGIDS:
-	a.Run python root-dir/IDSGenerator/IDSGenerator.py PLATFORM
+   - Run python root-dir/IDSGenerator/IDSGenerator.py PLATFORM
 	PLATFORM here refers to value which can be either "UAV" or "SAP". Based on this argument, the IDS will be generated either for a UAV or a SAP.
  
