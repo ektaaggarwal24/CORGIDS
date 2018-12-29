@@ -8,14 +8,10 @@
       "flightTime"
     ],
     "training_IDS_path": "/CPSTraces/UAV/*",
+    "testing_file_path": "/FaultyCPSTraces/UAV/faultyTestingTrace-UAV.csv",
+    "IDS_path": "/CORGIDSModel/UAV/",
     "window_size": 240,
-    "training_range_values": [
-      1,
-      1.5,
-      2,
-      2.5,
-      3
-    ],
+    "range_value": 1.5,
     "training_threshold": 1,
     "consecutive_decisions": 2
   },
@@ -28,14 +24,10 @@
       "basal"
     ],
     "training_IDS_path": "/CPSTraces/SAP/*",
+    "testing_file_path": "/FaultyCPSTraces/SAP/faultyTestingTrace-SAP.csv",
+    "IDS_path": "/CORGIDSModel/SAP/",
     "window_size": 240,
-    "training_range_values": [
-      1,
-      1.5,
-      2,
-      2.5,
-      3
-    ],
+    "range_value": 1.5,
     "training_threshold": 5,
     "consecutive_decisions": 2
   }

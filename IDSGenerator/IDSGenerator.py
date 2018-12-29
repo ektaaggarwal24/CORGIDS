@@ -79,8 +79,8 @@ def main(inputPlatform):
     print("Generating intrusion detection model..")
     trainedHMM,statsArray = train_HMM_model(trainingPath, logicalProperties, threshold)
 
-    trainedHMMFilePath = basedir + "/CORGIDSModel/" + platform + "/trainedModel" + platform + ".pickle"
-    trainedHMMStatsFilePath = basedir + "/CORGIDSModel/" + platform + "/trainedModelStats" + platform + ".pickle"
+    trainedHMMFilePath = basedir + "/CORGIDSModel/" + platform + "/trainedModel.pickle"
+    trainedHMMStatsFilePath = basedir + "/CORGIDSModel/" + platform + "/trainedModelStats.pickle"
 
     with open(trainedHMMFilePath, 'wb') as handle:
         pickle.dump(trainedHMM, handle, protocol=pickle.HIGHEST_PROTOCOL)
